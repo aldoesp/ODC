@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Background = ({ 
-  src, 
+  src = "/home/dodo/Pictures/One Piece/Luffy.png", 
   alt = 'Background', 
   className = '',
   children,
